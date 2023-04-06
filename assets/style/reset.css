@@ -53,6 +53,7 @@ li, a, i, figure, img, button, input[type=button], input[type=submit] {
     -moz-user-select: none;
     user-select: none;
     text-decoration: none;
+    color: #000;
 }
 
 input, text, button {

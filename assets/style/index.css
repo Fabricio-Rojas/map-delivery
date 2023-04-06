@@ -8,6 +8,100 @@
 
 body {
     background: #fff;
-    overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(118, 185, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+h2 {
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #76b900;
+}
+
+nav ul {
+    height: 90px;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+li a {
+    font-size: 18px;
+    color: #76b900;
+}
+
+nav button {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #76b900;
+}
+
+nav button a {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Main */
+main {
+    padding: 60px 0;
+}
+
+/* Hero Banner */
+.hero-banner {
+    position: relative;
+}
+
+.hero-banner h3 {
+    color: #a2ff00;
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.hero-banner p {
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.hero-banner span {
+    color: #a2ff00;
+}
+
+/* Learn more sect */
+#learn-more {
+    margin-top: 30px;
+    height: 100vh;
+    background-color: #f1f2f3;
+    border-radius: 30px;
+}
+
+/* map display sect */
+#map-tracker {
+
+}
