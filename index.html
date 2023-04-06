@@ -6,6 +6,9 @@
         <meta name="author" content="Fabricio Rojas">
         <meta name="description" content="---">
         <meta name="keywords" content="html, css, web, web development, seo">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <title>Fresh Delivery</title>
         <link rel="shortcut icon" href="./assets/image/main white finished.png?v=2" type="image/x-icon">
         <link rel="stylesheet" href="./assets/style/index.css" media="all">
@@ -23,7 +26,7 @@
                         <a href="#learn-more">Learn More</a>
                     </li>
                     <button>
-                        <a href="#">Contact Us</a>
+                        Contact Us
                     </button>
                 </ul>
             </nav>
@@ -35,14 +38,49 @@
                 <p>Get the <span>freshest food</span> delivered right from your home!</p>
             </section>
             <section id="learn-more">
-
+                <h3>How it works</h3>
+                <p>
+                    Choose your favorite food - Get a great deal - Delivered
+                    safely to your door
+                </p>
+                <ul>
+                    <li>
+                        <h3>Choose your meals</h3>
+                        <p>
+                            Get recomedations based on your preferences and 
+                            get to try something new everyday!
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Create the perfect order</h3>
+                        <p>
+                            Easy-to-use design allows you to modify your orders
+                            to fit your tastes and needs.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Get convinient daily discounts</h3>
+                        <p>
+                            Make use of the spacial offers on rotation and eat 
+                            affordably
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Have it delivered to your front door</h3>
+                        <p>
+                            Our team of great delivery drivers will be at your 
+                            door within 30 minutes of your order.
+                        </p>
+                    </li>
+                </ul>
             </section>
             <section id="map-tracker">
-
+                <button id="start-map-btn">
+                    <a href="#map-tracker">Track Now</a>
+                </button>
+                <div id="map"></div>
+                <button id="fly-btn"><i class="fa-solid fa-location-dot"></i></button>
             </section>
         </main>
-        <footer>
-
-        </footer>
     </body>
 </html>
